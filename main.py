@@ -1,5 +1,6 @@
 import random
 import string
+import pyperclip
 
 def generar_contrasena(longitud=16):
     """Genera una cadena aleatoria de caracteres."""
@@ -16,7 +17,10 @@ if __name__ == '__main__':
             print("Advertencia: Para mayor resistencia, se recomienda un mínimo de 12 caracteres.")
         
         nueva_contrasena = generar_contrasena(longitud_usuario)
-        print(f"\nTu contraseña generada es: {nueva_contrasena}")
+        
+        pyperclip.copy(nueva_contrasena)
+        print("\n[+] Contraseña segura generada y copiada al portapapeles.")
+        print("[-] Por privacidad, la clave no se imprime en pantalla.")
         
     except ValueError:
         print("Error: Debes ingresar un número entero válido.")
