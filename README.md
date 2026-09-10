@@ -2,6 +2,8 @@
 
 Generador de contraseñas seguras para línea de comandos, escrito en Python. Crea claves aleatorias criptográficamente seguras y las copia directamente al portapapeles, sin exponerlas en pantalla. Esto asegura que solo tú tengas el control de tus claves.
 
+<p align="center"><img src="Passkevrynox banner.jpg" alt="PassKevrynox banner" width="100%"></p>
+
 ## Descripción
 
 PassKevrynox genera contraseñas usando el módulo `secrets` de Python, la misma clase de generador aleatorio criptográfico (CSPRNG) que usan bancos e instituciones financieras internacionales para proteger claves y tokens de acceso. La contraseña se copia automáticamente al portapapeles y nunca se muestra en pantalla, salvo que el sistema no tenga un portapapeles disponible (por ejemplo, en un entorno sin sesión gráfica).
