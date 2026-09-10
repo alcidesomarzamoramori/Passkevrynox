@@ -67,10 +67,12 @@ La aleatoriedad se genera con el módulo estándar [`secrets`](https://docs.pyth
 
 ```
 .
-├── Passkevrynox v1.0.3.py     # Código fuente principal
-├── Passkevrynox v1.0.2.py     # Primeras versiones del proyecto
 ├── LICENSE.md                 # Licencia del proyecto
-└── README.md                  # Archivo instructivo
+├── Passkevrynox banner.jpg    # Banner del programa
+├── Passkevrynox v1.0.2.py     # Primeras versiones del proyecto
+├── Passkevrynox v1.0.3.py     # Código fuente principal
+├── README.md                  # Archivo instructivo
+└── LICENSE.md                 # Licencia del proyecto
 ```
 
 ## Licencia
