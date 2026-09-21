@@ -30,20 +30,11 @@ PassKevrynox genera contraseñas usando el módulo `secrets` de Python, la misma
 
 ## Instalación y uso
 
-### Opción 1: Ejecutable (recomendado)
+### Descarga
 
 1. Ve a la pestaña [Releases](../../releases) de este repositorio.
 2. Descarga el archivo `PassKevrynox.exe` de la versión más reciente.
 3. Haz doble clic para ejecutarlo. Windows puede mostrar una advertencia de "editor desconocido" por no estar firmado digitalmente; es normal en proyectos personales como este.
-
-### Opción 2: Desde el código fuente
-
-```bash
-git clone https://github.com/<tu-usuario>/<tu-repositorio>.git
-cd <tu-repositorio>
-pip install pyperclip
-python generador_contrasenas.py
-```
 
 ### Cómo usarlo
 
