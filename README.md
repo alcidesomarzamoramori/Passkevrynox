@@ -17,7 +17,7 @@ PassKevrynox genera contraseñas usando el módulo `secrets` de Python, la misma
 - Manejo de errores para entradas inválidas, `Ctrl+C` y cierre inesperado.
 - Interfaz de consola con colores y un banner informativo sobre el nivel de seguridad.
 - Disponible como ejecutable `.exe` independiente, sin necesidad de tener Python instalado.
-- El programa ejecutable es 100% portable y ligero, puedes llevarlo hasta en USB, sin necesidad de instalarlo en tu pc.
+- El programa ejecutable es 100% portable y ligero, puedes llevarlo hasta en USB, sin necesidad de instalarlo en tu pc y es muy útil para cifrar archivos.
 
 ## Requisitos
 
