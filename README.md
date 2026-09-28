@@ -10,7 +10,7 @@ PassKevrynox genera contraseñas usando el módulo `secrets` de Python, la misma
 
 ## Características
 
-- Generación criptográficamente segura con `secrets.choice`.
+- Generación criptográficamente segura.
 - Longitud configurable, entre 12 y 128 caracteres.
 - Copiado automático al portapapeles vía `pyperclip`.
 - Respaldo automático: si no hay portapapeles disponible, muestra la contraseña en pantalla en vez de fallar (fallback).
