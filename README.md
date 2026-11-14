@@ -68,7 +68,3 @@ La aleatoriedad se genera con el módulo estándar [`secrets`](https://docs.pyth
 ## Licencia
 
 MIT licence: Este es un proyecto personal, libre y permisivo.
-
-## Autor
-
-Desarrollado por Omar Zamora.
